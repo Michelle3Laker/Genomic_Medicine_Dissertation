@@ -1,3 +1,7 @@
+library(tidyverse)
+setwd("C:/Users/Michelle/OneDrive/MPhil Genomic Medicine/Dissertation Work/CKD")
+
+#READ IN DATA
 tiered.data <- read_tsv("CKD Tables for R (sre) - tiered variants.tsv")
 tiered.data <- drop_na(tiered.data)
 
