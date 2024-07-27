@@ -1,3 +1,6 @@
+library(tidyverse)
+setwd("C:/Users/Michelle/OneDrive/MPhil Genomic Medicine/Dissertation Work/CKD")
+
 #FISHER'S TESTS FOR GREEN(DIAGNOSTIC) GENES ON EACH PANEL
 coded.data <- read_tsv("CKD Tables for R (sre) - colour codes.tsv")
 amber.test <- select(coded.data, 1, 2, 5, 6)
